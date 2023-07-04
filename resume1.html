@@ -1,21 +1,47 @@
 <html>
  <head>
 <link type="text/css" rel="stylesheet" href="style.css"/>
+
 <title></title> 
 </head>
 <body>
+    
+
 <div id="header">
 <p id="name">Nimish Srivastava</p>
+
+<div id="date">  </div>
+<div id="time">  </div>
+<script type="text/javascript">
+   let date = document.getElementById("date");
+   let time = document.getElementById("time");
+   // creating the date object and getting the date and time
+   let newDate = new Date();
+   let year = newDate.getFullYear();
+   let month = newDate.getMonth();
+   let todaySDate = newDate.getDate();
+   let hours = newDate.getHours();
+   let minutes = newDate.getMinutes();
+   let seconds = newDate.getSeconds();
+   date.innerHTML = " " + todaySDate + "/ " + month + "/ " + year;
+   time.innerHTML = hours + ": " + minutes + ": " + seconds;
+</script>
          <a href="mailto:nimish.srivastava.100@gmail.com" target="_blank"><p id="email">EMAIL:nimish.srivastava.100@gmail.com</p></a>
          <a href="callto:8397071167" style="text-decoration: none;"><p id="contact">CONTACT NO.:8397071167</p></a>
          <a href="https://www.linkedin.com/in/nimish-srivastava-98561722a" style="text-decoration: none;"><button class="linkedin">LINKEDIN</button></a>
 </p></a>
 <a href="https://github.com/nimish123453" style="text-decoration: none;"><button class="git">Github
 </button></a>
+
+
+
      </div>
      <div class="left">
      </div>
      <div class="right">
+        <br>
+        <br>
+        <br>
             <h3>OBJECTIVE</h3>
             <p>
             <ul>To establish a career with a reputable organization, where I can enhance my skills and knowledge in both core and non-core areas of my field. As a passionate learner and dedicated individual, I am committed to utilizing my academic background and work experience to contribute towards organizational goals, while also growing and advancing as a professional.
@@ -65,6 +91,9 @@
             <p>
             <ul>
                 <li>
+                    NPTEL Certification on Data Analytics with python by IIT
+                Roorkee</li>
+                <li>
                     NPTEL Certification on Data Science for Engineers by IIT
                     Madras</li>
                 <li>
@@ -103,7 +132,8 @@
                 <li>
                     Volunteer at Ngo Umeedon Ko Pankh Organization(at
                     present)
-                    </li></ul>
+                    </li>
+                </ul>
             </p>
             <h3>PROJECTS</h3>
             <p>
